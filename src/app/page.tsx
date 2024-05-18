@@ -2,6 +2,7 @@ import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
 import MovingCard from "@/components/MovingCard";
 import StickyScrollSection from "@/components/StickyScrollSection";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
 import React from "react";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <FeaturedCourses />
       <StickyScrollSection />
       <MovingCard />
+      <UpcomingWebinars />
     </main>
   );
 };
