@@ -1,5 +1,6 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import MovingCard from "@/components/MovingCard";
 import StickyScrollSection from "@/components/StickyScrollSection";
 import React from "react";
 
@@ -9,6 +10,7 @@ const Home = () => {
       <HeroSection />
       <FeaturedCourses />
       <StickyScrollSection />
+      <MovingCard />
     </main>
   );
 };
