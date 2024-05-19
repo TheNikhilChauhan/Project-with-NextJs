@@ -1,4 +1,5 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import MovingCard from "@/components/MovingCard";
 import StickyScrollSection from "@/components/StickyScrollSection";
@@ -15,6 +16,7 @@ const Home = () => {
       <MovingCard />
       <UpcomingWebinars />
       <Instructors />
+      <Footer />
     </main>
   );
 };
